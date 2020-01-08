@@ -1,0 +1,20 @@
+{
+    "name": "asrx/sandpay",
+    "description": "杉德支付 sandpay api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Donovan.Xu",
+            "email": "xudong0226@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "php-curl-class/php-curl-class": "^8.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asrx\\Sandpay\\": "src"
+        }
+    }
+}
